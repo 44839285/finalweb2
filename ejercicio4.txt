@@ -1,0 +1,32 @@
+lo que necesitamos para incorporar una API propia:
+
+1_implementar el router y el apiView de la catedra;
+2_especificar en el archivo .htaccess que todos los links que empiecen con "api/" llamen al api_router.
+3_crear un archivo php llamado api_router donde se hacen los llamados al router para la creacion de apis y a los controladores necesarios para obtener los elementos necesarios.
+4_dependendiendo de que datos querramos que nos devuelva nuestra api, creamos funciones en los controlladores correspondientes que llamen al model que utilizaremos y al apiView.
+
+A {
+	ENDPOINT: pagina/api/clientedatos/:ID.
+	METODO HTTP: addRoute("clientedatos/:ID", "GET", "clienteApiController", "datospersonales");
+}
+B {
+    // 
+	ENDPOINT: pagina/api/clientedatos/:ID.
+	METODO HTTP: addRoute("clientedatos:ID", "PUT", "clienteApiController", "editartdatospersonales");	
+}
+C {
+	ENDPOINT: pagina/api/tarjetalistado.
+	METODO HTTP: addRoute("tarjetalistado", "GET", "tarjetaApiController", "listadodetarjeta");	
+}
+D {
+	ENDPOINT: pagina/api/actividad/:ID.
+	METODO HTTP: addRoute("actividad/:ID","GET","actividadApiController", "estadodetarjeta");	
+}
+E {
+	ENDPOINT: pagina/api/actividad.
+	METODO HTTP: addRoute("actividad","GET","actividadApiController", "obteneractividad");
+}
+F{
+	ENDPOINT: pagina/api/tarjeta.
+	METODO HTTP: addRoute("tarjeta","DELETE","tarjetaApiController", "dardebaja");
+}

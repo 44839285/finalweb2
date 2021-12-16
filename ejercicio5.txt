@@ -1,0 +1,19 @@
+A
+i=la api rest seria un metodo de comunicacion seguro entre el cliente y el servidor hacen llamados por api con javascript una pared intermedia es mucho mas segura no mo php que al gunas partes son inseguras
+ii= en donde lo emplementaria  lo de api es volver admin a un usario hay lo emplementaria. es un ejemplo que puse  en el final esta consigna usaria api Cuando se agrega un cliente se le deben depositar automáticamente 200 kms en su cuenta.
+
+
+B.
+i.Server Side Rendering= se usa con el mvc con el controller con el view usando con smarty.al cliente le manda la solicitud de que le muestre la pagina y el servidor lo procesa y se lo da al cliente,el cliente no procesa nada lo que pasa es al usuario se le carga una pantalla en blanco pero con los pedidos al servidor y el servidor lo va completando lo que le pida.
+ los recursos del sitio son creados dentro del servidor. Cuando un usuario realiza una solicitud el servidor envía el documento HTML final completo para que el browser lo muestre.
+
+ii.HTTP Status codes= es un sistema de seguridad que le da a los navegadores,Los códigos de estado de respuesta HTTP indican si se ha completado satisfactoriamente una solicitud y le da una respuesta si se completo esa respuesta con estados 200ok,
+1 Respuestas informativas (100–199),
+2 Respuestas satisfactorias (200–299),
+3 Redirecciones (300–399),
+4 Errores de los clientes (400–499),
+5 errores de los servidores (500–599)
+iii.Sesiones de usuarios= tenes que completar un formulario para el registro para el inicio de sesion entonces los datos de ese udario seguardan en una variable llamada SSESON que es del php lo que tiene esa variabale que se guarda con el tiempo el usuario cambia la pagina las veces quiera y el SSESION se va a mantener con los datos de ese cliente hasta que se decidan cerrar la SSESION entonces que pasa si hay paginas o apartados que nesecitan que el usuario este logueado o que tenga previlegio determinado lo que se hace es guardar los datos de sesion y cada ves que entre a una pagina especifica alla un metodo de por medio que verifique si esta logueado o no  
+si es administrador o no y eso metodo lo tiene el authHelper 
+
+un ejemplo  Un único usuario puede abrir varias sesiones, ya sea el mismo día o en varios días, semanas o meses. En cuanto termina la sesión, es posible empezar una sesión nueva, sino no podria hacer otra sesion.
